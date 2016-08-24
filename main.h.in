@@ -1,0 +1,10 @@
+//
+// Created by Brian Oxley on 8/24/16.
+//
+
+#ifndef DEMO_MAIN_H
+#define DEMO_MAIN_H
+
+#define Demo_VERSION_MAJOR @Demo_VERSION_MAJOR@
+
+#endif //DEMO_MAIN_H
