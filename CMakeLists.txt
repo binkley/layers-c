@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.6)
 project(demo)
+cmake_minimum_required(VERSION 3.6)
 
 set(Demo_VERSION_MAJOR 0)
 
