@@ -15,6 +15,5 @@ add_executable(demo ${SOURCE_FILES})
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/Modules")
 find_package(GC REQUIRED)
-include_directories(${BOEHM_GC_INCLUDE_DIR})
-set(LIBS ${LIBS} ${BOEHM_GC_LIBRARIES})
-target_link_libraries(demo ${LIBS})
+target_include_directories(demo PUBLIC ${BOEHM_GC_INCLUDE_DIR})
+target_link_libraries(demo ${BOEHM_GC_LIBRARIES})
