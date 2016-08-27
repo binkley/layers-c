@@ -6,4 +6,4 @@ A "C" implementation of layers.
 
 * bdw-gc: the [Boehm-Demers-Weiser conservative garbage
   collector](http://www.hboehm.info/gc/)
-* apr-1: the [Apache Portable Runtime](https://apr.apache.org/)
+* libhl: [LibHL](https://github.com/xant/libhl)
